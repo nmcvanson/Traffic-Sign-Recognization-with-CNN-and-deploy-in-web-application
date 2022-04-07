@@ -1,0 +1,19 @@
+
+{% extends "base.html" %} {% block content %}
+<style> .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #2dcba7;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+ }</style>
+
+<h1 style="text-align: center;">Real time detection and Recognition</h1>
+<div style="justify-content: center; display: flex; margin-top: 30px;"><img src="{{ url_for('video') }}"></div>
+<a href="home"> Home </a>
+
+{% endblock %}
